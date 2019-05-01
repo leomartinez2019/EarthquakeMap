@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: 'VT323', monospace;
+  text-align: center;
+}
+
+.earthquake {
+  padding: 2em;
+}
+
+.map-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-gap: 12px;
+}
+
+#map {
+  background: #3caea3;
+  height: 516px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.mag-info {
+  background: #f6d55c;
+  height: 500px;
+  max-width: 500px;
+  overflow: auto;
+  margin: 0 auto;
+  padding: 8px;
+  text-align: left;
+}
+
+#magnitud {
+  font-weight: bold;
+}
+
+.info-detalle {
+  border-bottom: 1px solid grey;
+}
